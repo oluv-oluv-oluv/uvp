@@ -340,6 +340,9 @@ img {
     h3 {
         font-size: 1.25rem;
     }
+    .product-top h3 {
+        padding-bottom: 0px;
+    }
     p, a, strong, em {
         font-size: 0.6rem;
     }
