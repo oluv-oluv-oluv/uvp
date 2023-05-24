@@ -288,13 +288,23 @@ img {
 }
 
 /* MEDIA DISPLAY */
+@media only screen and (max-width: 900px) {
+    .employees-img {
+        width: 100%;
+        height: 200px;
+    }
+}
+
 @media only screen and (max-width: 480px) {
     header {
-        height: 300px;
+        height: 200px;
     }
     #mission {
-        height: 200px;
+        height: 150px;
         padding-top: 30px;
+    }
+    #products {
+        padding-top: 50px;
     }
     #who-we-are {
         padding-top: 20px;
@@ -314,15 +324,6 @@ img {
     }
 }
 
-@media only screen and (max-width: 900px) {
-    .employees-img {
-        width: 100%;
-        height: 200px;
-    }
-}
-
-
-
 /* MEDIA TEXT */
 @media only screen and (max-width: 480px) {
     nav li {
@@ -341,6 +342,9 @@ img {
     }
     p, a, strong, em {
         font-size: 0.6rem;
+    }
+    footer em, footer a {
+        font-size: 0.5rem;
     }
 } 
 
